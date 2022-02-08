@@ -527,17 +527,6 @@ module.exports = {
         if (chat.detect) this.sendMessage(jid, text, MessageType.extendedText, {
           contextInfo: {
             mentionedJid: this.parseMention(text)
-          case 'buildgi':
-		  if (args.length < 1) return reply(`Masukkan nama characternya contoh #genshin mona`)
-		  buff = await getBuffer(`https://github.com/GaadaUsernamenya/database/blob/main/buildgi/${args[0]}.jpeg`)
-		  buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1},{ buttonId: `!linkgc`, buttonText: { displayText: '🗣GRUP CHAT' }, type: 1 }]
-		  imageMsg = (await client.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-		  buttonsMessage = {footerText:'Mayumi DVT', imageMessage: imageMsg,
-		
-		
-	  }
-        })
-        break
     }
   },
   async delete(m) {
