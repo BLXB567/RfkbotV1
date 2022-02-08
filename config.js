@@ -18,7 +18,7 @@ global.linkGC = ['https://chat.whatsapp.com/Ie3xBHdL22A560EBWRwFwI', ''] // gant
 global.owner = ['6283117436733','6282327759039'] // Put your number here //owner eval
 global.kontak = ['6283117436733','6282327759039','085708561219','19125203731','081331493321'] //Ketika ada yang ngetik #owner
 global.mods = ['6282327759039'] // Want some help?
-global.prems = ['6282327759039'] 
+global.prems = ['6282327759039','6282375996697'] 
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
