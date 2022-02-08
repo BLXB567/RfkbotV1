@@ -527,6 +527,9 @@ module.exports = {
         if (chat.detect) this.sendMessage(jid, text, MessageType.extendedText, {
           contextInfo: {
             mentionedJid: this.parseMention(text)
+          }
+        })
+        break
     }
   },
   async delete(m) {
