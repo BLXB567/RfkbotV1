@@ -47,8 +47,8 @@ xteamkey = 'Dawnfrostkey'
 namaig = 'GAK ADA :)'
 namagithub = 'GAK ADA :)'
 kasihcaption = `Nih kak`
-namakontak1 = 'Owner'
-namakontak2 = 'Syah DVT'
+namakontak1 = 'Syah DVT'
+namakontak2 = 'Niskata'
 
 //kasihcaption = `Nih Kak`
 
