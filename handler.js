@@ -197,13 +197,13 @@ module.exports = {
           if (!('sBye' in chat)) chat.sBye = ''
           if (!('sPromote' in chat)) chat.sPromote = ''
           if (!('sDemote' in chat)) chat.sDemote = ''
-          if (!('descUpdate' in chat)) chat.descUpdate = true
-          if (!('delete' in chat)) chat.delete = true
-          if (!('antiBadword' in chat)) chat.antiBadword = true
+          if (!('descUpdate' in chat)) chat.descUpdate = false
+          if (!('delete' in chat)) chat.delete = false
+          if (!('antiBadword' in chat)) chat.antiBadword = false
           if (!('rpg' in chat)) chat.delete = true
           if (!('nsfw' in chat)) chat.delete = false
           if (!('antiLink' in chat)) chat.antiLink = false
-          if (!('viewonce' in chat)) chat.viewonce = true
+          if (!('viewonce' in chat)) chat.viewonce = false
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
           welcome: false,
@@ -216,9 +216,9 @@ module.exports = {
           delete: false,
           rpg: true,
           nsfw: false,
-          antiBadword: true,
+          antiBadword: false,
           antiLink: false,
-          viewonce: true,
+          viewonce: false,
         }
         
                 let settings = global.db.data.settings[this.user.jid]
