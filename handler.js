@@ -201,8 +201,6 @@ module.exports = {
           if (!('delete' in chat)) chat.delete = false
           if (!('rpg' in chat)) chat.delete = true
           if (!('nsfw' in chat)) chat.delete = false
-          if (!('antiLink' in chat)) chat.antiLink = false
-          if (!('viewonce' in chat)) chat.viewonce = false
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
           welcome: false,
@@ -215,8 +213,6 @@ module.exports = {
           delete: false,
           rpg: true,
           nsfw: false,
-          antiLink: false,
-          viewonce: false,
         }
         
                 let settings = global.db.data.settings[this.user.jid]
