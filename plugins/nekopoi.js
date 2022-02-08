@@ -11,7 +11,7 @@ handler.help = ['nekopoi <link>']
 handler.tags = ['hentai']
 handler.command = /^nekopoi$/i
 
-handler.limit = false
+handler.limit = true
 
 module.exports = handler
   
