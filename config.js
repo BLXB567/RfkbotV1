@@ -2,23 +2,23 @@
 // thank you to ALLAH Swt
 // thank you to Nurutomo as wabot-aq
 // thank you to ariffb as stikerinbot
-// thank you to botstylee
-// thank you to bochilgaming as games-wabot
+// thank you to WhatsApp
+// thank you to Bots game-WhatsApp
 // thank you to benni ismael
-// thank you to zerochanBot
-// thank you to fernazer
-// thank you to MikeBot Dev Team
+// thank you to Zeeone ofc
+// thank you to Lexxy Official
+// thank you to Devil Tiers Dev Team
 // thank you to ALL Bot creator
 // and thanks you to who support my Bot
 
-gc1 = ''
-gc2 = ''
-gc3 = ''
-global.linkGC = ['https://chat.whatsapp.com/HJ9pD2XJ8vq7whuAYOvT1Y', ''] // ganti jadi group lu
-global.owner = ['085725924473'] // Put your number here //owner eval
-global.kontak = ['085725924473','0'] //Ketika ada yang ngetik #owner
+gc1 = 'https://chat.whatsapp.com/Ie3xBHdL22A560EBWRwFwI'
+gc2 = 'https://chat.whatsapp.com/DuWxgeKiIGICJd0MmPpDtU'
+gc3 = 'https://chat.whatsapp.com/GsZcFsjIuVOGlJYIgrTJzg'
+global.linkGC = ['https://chat.whatsapp.com/Ie3xBHdL22A560EBWRwFwI', ''] // ganti jadi group lu
+global.owner = ['083117436733'] // Put your number here //owner eval
+global.kontak = ['083117436733','18597109548','085708561219','19125203731','081331493321'] //Ketika ada yang ngetik #owner
 global.mods = ['0'] // Want some help?
-global.prems = ['085725924473'] // Premium user has unlimited limit
+global.prems = ['08570856l1219','083117436733','19125203731','18597109548] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
