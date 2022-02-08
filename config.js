@@ -15,10 +15,10 @@ gc1 = 'https://chat.whatsapp.com/Ie3xBHdL22A560EBWRwFwI'
 gc2 = 'https://chat.whatsapp.com/DuWxgeKiIGICJd0MmPpDtU'
 gc3 = 'https://chat.whatsapp.com/GsZcFsjIuVOGlJYIgrTJzg'
 global.linkGC = ['https://chat.whatsapp.com/Ie3xBHdL22A560EBWRwFwI', ''] // ganti jadi group lu
-global.owner = ['083117436733'] // Put your number here //owner eval
-global.kontak = ['083117436733','18597109548','085708561219','19125203731','081331493321'] //Ketika ada yang ngetik #owner
-global.mods = ['0'] // Want some help?
-global.prems = ['08570856l1219','083117436733','19125203731','18597109548'] 
+global.owner = ['6283117436733','6282327759039'] // Put your number here //owner eval
+global.kontak = ['6283117436733','6282327759039','085708561219','19125203731','081331493321'] //Ketika ada yang ngetik #owner
+global.mods = ['6282327759039'] // Want some help?
+global.prems = ['6282327759039'] 
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
