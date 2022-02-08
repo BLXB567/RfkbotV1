@@ -6,7 +6,7 @@ if (!DATABASE.data.chats[m.chat].nsfw && m.isGroup) throw 'Feature Nsfw Disable\
 m.reply(wait)
 json = (await Neko.nsfw.yuri()).url
 await conn.sendFile(m.chat, json, 'yuri.jpg', kasihcaption, m, false, { contextInfo: { forwardingScore: 999, isForwarded: true }})
-//await conn.sendButtonImg(m.chat, json, kasihcaption, footer, 'Next', `#yuri`, m, false, { contextInfo: { forwardingScore: 999, isForwarded: false }})
+//await conn.sendButtonImg(m.chat, json, kasihcaption, footer, 'Next', `#yuri`, m, false, { contextInfo: { forwardingScore: 999, isForwarded: true }})
 }
 handler.help = ['yuri']
 handler.tags = ['sange']
