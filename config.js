@@ -47,20 +47,20 @@ xteamkey = 'Dawnfrostkey'
 namaig = 'GAK ADA :)'
 namagithub = 'GAK ADA :)'
 kasihcaption = `Nih kak`
-namakontak1 = 'KAKA BOT'
-namakontak2 = 'KAKA BOT'
+namakontak1 = 'Owner'
+namakontak2 = 'Syah DVT'
 
 //kasihcaption = `Nih Kak`
 
 // Sticker WM
-global.packname = 'By KAKA BOT' // ganti aja
-global.author = 'KAKA BOT' // ganti aja
+global.packname = 'By DVT' // ganti aja
+global.author = 'BLZXB5' // ganti aja
 
 //yyy
-bc = 'AlyaaXzy' //KAKA BOT Broadcast
-footer = '\n©KAKA BOT'
-namabot = 'KAKA BOT'
-namalu = 'KAKA BOT'
+bc = 'BLZXB5' //Miyuki DVT Broadcast
+footer = '\n©Miyuki DVT'
+namabot = 'Miyuki DVT'
+namalu = 'BLZXB5'
 
 
 // 
