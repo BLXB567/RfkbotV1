@@ -191,14 +191,14 @@ module.exports = {
         if (typeof chat !== 'object') global.db.data.chats[m.chat] = {}
         if (chat) {
           if (!('isBanned' in chat)) chat.isBanned = false
-          if (!('welcome' in chat)) chat.welcome = false
+          if (!('welcome' in chat)) chat.welcome = true
           if (!('detect' in chat)) chat.detect = false
           if (!('sWelcome' in chat)) chat.sWelcome = ''
           if (!('sBye' in chat)) chat.sBye = ''
           if (!('sPromote' in chat)) chat.sPromote = ''
           if (!('sDemote' in chat)) chat.sDemote = ''
           if (!('descUpdate' in chat)) chat.descUpdate = true
-          if (!('delete' in chat)) chat.delete = false
+          if (!('delete' in chat)) chat.delete = true
           if (!('antiBadword' in chat)) chat.antiBadword = true
           if (!('rpg' in chat)) chat.delete = true
           if (!('nsfw' in chat)) chat.delete = false
@@ -232,7 +232,7 @@ module.exports = {
           if (!isNumber(settings.backupDB)) settings.backupDB = 0
           if (!'groupOnly' in settings) settings.groupOnly = false
           if (!'jadibot' in settings) settings.groupOnly = false
-          if (!'nsfw' in settings) settings.nsfw = true
+          if (!'nsfw' in settings) settings.nsfw = false
           if (!isNumber(settings.status)) settings.status = 0
         } else global.db.data.settings[this.user.jid] = {
           anon: true,
