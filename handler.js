@@ -109,7 +109,7 @@ module.exports = {
                 if (!isNumber(user.serial)) user.serial
                 if (!isNumber(user.regTime)) user.regTime = -1
             }
-            if (!('autolevelup' in user)) user.autolevelup = true
+            if (!('autolevelup' in user)) user.autolevelup = false
             if (!('lastIstigfar' in user)) user.lastIstigfar = true
         } else global.db.data.users[m.sender] = {
             healt: 100,
@@ -183,7 +183,7 @@ module.exports = {
             age: -1,
             serial: serial,
             regTime: -1,
-            autolevelup: true,
+            autolevelup: false,
             lastIstigfar: 0,
         }
 
