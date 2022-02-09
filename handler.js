@@ -203,7 +203,7 @@ module.exports = {
           if (!('nsfw' in chat)) chat.delete = false
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
-          welcome: false,
+          welcome: true,
           detect: false,
           sWelcome: '',
           sBye: '',
@@ -237,7 +237,7 @@ module.exports = {
           backupDB: 0,
           groupOnly: false,
           jadibot: false,
-          onsfw: true,
+          onsfw: false,
           status: 0,
         }
       } catch (e) {
