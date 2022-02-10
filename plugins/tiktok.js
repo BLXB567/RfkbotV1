@@ -6,7 +6,7 @@ let res = await fetch(`https://api.dapuhy.xyz/api/socialmedia/dddtik?url=${args[
 if (!res.ok) throw await res.text()
 let json = await res.json()
 if (!json.status) throw json
-let { title, download } = json.result
+let { title, download } = json.data
 await conn.sendFile(m.chat, download.server1, 'tt.mp4', `${title}`.trim(), m)
 }
 
