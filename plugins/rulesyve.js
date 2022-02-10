@@ -24,8 +24,6 @@ let handler  = async (m, { conn, usedPrefix }) => {
 
 
 ➥ ${namabot} Versi ${package.version}
-➥ *HomePage:* https://github.com/AlyaaXd
-➥ *Issue:* https://github.com/AlyaaXd
 ➥ *Ping:* ${neww - old} *ms*
 ➥ *Total user:* ${totalreg} *user*
 ➥ *Uptime:* ${uptime}
